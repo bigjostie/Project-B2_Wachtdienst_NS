@@ -13,6 +13,7 @@ def xml(response):
     """
     bestand = codecs.open("gegevens/stations.xml", "w", "utf-8")
     bestand.write(response.text)
+    print(response.text)
     bestand.close()
 
 xml(response)
