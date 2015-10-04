@@ -26,7 +26,3 @@ bereken_monteur()
 
 for test in monteurs_string:
     print(test)
-
-"""
-Er moet nog een functie gescreven worden dat de locaties nu automatisch naar de database/csv bestand gaan en hierin worden opgeslagen.
-"""
